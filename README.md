@@ -4,4 +4,4 @@ This script is used by the Edu Consultants to identify the LEA of each participa
 **How it works**:
 Grepl is used to find the sub-strings of the LEA names within the subject and body fields of the orginal data. Most referred to their school with a partial name or nickname so the script changes all of the variations for each LEA to a standarized name. A region is assigned to the case when the name matches with three regional lists of LEAs participating. 
 
-**Requirements**: Tidyverse, StringR
+**Requirements**: Tidyverse for tibbles and mutating, which auto loads StringR for manipulating sub-strings
