@@ -106,7 +106,7 @@ LEAlistEast <- c(
 
 
 #Get the data. Change the file within the "" to match the name of the csv export from Padlet.
-df <- read.csv("Padlet - Indicator 13 MAGs  Progress Monitoring Coffee Talk.csv")
+df <- read.csv("Padlet - Indicator 13 Transition Planning Coffee Talk.csv")
 #Remove unneeded columns
 df <- df %>% select(-Attachment,-Author,-Created.At)
 #make a list of LEAs to check against and fill values from.
@@ -232,4 +232,4 @@ df2 <- df2 %>%
 df2 <- df2 %>% unite("Region",region:region3,na.rm=TRUE)
 
 #Export as csv. Change file name to match the course activity.
-write.csv(df2,"I13_Schoology_Coffetalk_.csv")
+write.csv(df2,"I13_Schoology_Coffeetalk_TRANSITION_PLANNING.csv")
