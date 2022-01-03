@@ -231,17 +231,5 @@ df2 <- df2 %>%
 #merge columns
 df2 <- df2 %>% unite("Region",region:region3,na.rm=TRUE)
 
-#Export as csv - 1
-write.csv(df2,"Padlet - Indicator 13 Transition Planning Coffee Talk.csv")
-#Export as csv - 2
-write.csv(df2,"Padlet - Indicator 13 Assessment Coffee Talk.csv")
-#Export as csv - 3
-write.csv(df2,"Padlet - Indicator 13 IEP Alignment Coffee Talk.csv")
-#Export as csv - 4
-write.csv(df2,"Padlet - Indicator 13 MAGs  Progress Monitoring Coffee Talk.csv")
-#Export as csv - 5
-write.csv(df2,"I13_Schoology_Module1_Coffetalk_Participation.csv")
-#Export as csv - 6
-write.csv(df2,"I13_Schoology_Module1_Coffetalk_Participation.csv")
-#Export as csv - 7
-write.csv(df2,"I13_Schoology_Module1_Coffetalk_Participation.csv")
+#Export as csv. Change file name to match the course activity.
+write.csv(df2,"I13_Schoology_Coffetalk_.csv")
